@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ContactApp from "./components/ContactApp";
+import NoteApp from "./components/NoteApp";
 
 // styling
 import "./styles/style.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(<ContactApp />);
+ReactDOM.createRoot(document.getElementById("root")).render(<NoteApp />);

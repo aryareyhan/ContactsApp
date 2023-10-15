@@ -1,7 +1,5 @@
 import React from 'react';
  
-function DeleteButton({ id, onDelete }) {
-  return <button className='contact-item__delete' onClick={() => onDelete(id)}>🔥</button>
+export default function DeleteButton({ id, onDelete }) {
+  return <button className='note-item__delete' onClick={() => onDelete(id)}>🔥</button>
 }
- 
-export default DeleteButton;
